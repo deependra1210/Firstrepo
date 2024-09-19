@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Create post</title>
+	</head>
+	<body>
+		<h1>Create post</h1>
+		<form id="profileForm" action="/createPost" method="post" enctype="multipart/form-data" >
+			<label>Add Caption</label>
+			<textarea name="caption" placeholder="caption" required></textarea>
+			<br><br>
+			<label>Add Image</label>
+			<input type="file" name="photo" accept="image/*">
+			<br>
+			
+			<button type="submit">Post</button>
+		</form>
+	</body>
+</html>
